@@ -14,7 +14,6 @@ varlosh/sample-app:
     - echo "-Installing GoLang-"
     - sudo apt-get -y install golang
     - echo “--Building--”
-    - cd src
     - go build -o ../bin/server
     - echo “--Testing--”
     - go test
